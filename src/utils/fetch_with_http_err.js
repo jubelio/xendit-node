@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+const fetch = require('node-fetch').default;
 
 module.exports = function(endpointURL, opts) {
   return new Promise((resolve, reject) => {
